@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	
+	<bean id="shape" class="com.models.Shape" autowire="constructor">
+	
+	<!-- <constructor-arg ref="dummytriangle" />
+	 -->
+	<constructor-arg value="right angle triangle" />
+	</bean>
+	<bean id="dummytriangle" class="com.models.Triangles" >
+	<property name="base" value="10" />
+	<property name="height" value="12" />
+	<property name="hypotenuse" value="15" />
+	</bean>
+	</beans>

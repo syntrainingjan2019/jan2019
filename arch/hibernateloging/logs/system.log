@@ -1,0 +1,239 @@
+2018-07-13 07:49:54,464 IST [main] INFO  (JavaReflectionManager.java66) -HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2018-07-13 07:49:54,482 IST [main] INFO  (Version.java54) -HHH000412: Hibernate Core {4.3.5.Final}
+2018-07-13 07:49:54,492 IST [main] INFO  (Environment.java239) -HHH000206: hibernate.properties not found
+2018-07-13 07:49:54,494 IST [main] INFO  (Environment.java346) -HHH000021: Bytecode provider name : javassist
+2018-07-13 07:49:54,521 IST [main] INFO  (Configuration.java2073) -HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-07-13 07:49:54,521 IST [main] INFO  (Configuration.java2092) -HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-07-13 07:49:54,573 IST [main] INFO  (Configuration.java2214) -HHH000041: Configured SessionFactory: null
+2018-07-13 07:49:54,654 IST [main] WARN  (DriverManagerConnectionProviderImpl.java93) -HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-07-13 07:49:54,657 IST [main] INFO  (DriverManagerConnectionProviderImpl.java166) -HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/test]
+2018-07-13 07:49:54,657 IST [main] INFO  (DriverManagerConnectionProviderImpl.java175) -HHH000046: Connection properties: {user=dev, password=****}
+2018-07-13 07:49:54,658 IST [main] INFO  (DriverManagerConnectionProviderImpl.java180) -HHH000006: Autocommit mode: false
+2018-07-13 07:49:54,660 IST [main] INFO  (DriverManagerConnectionProviderImpl.java102) -HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-13 07:49:54,871 IST [main] INFO  (Dialect.java145) -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-07-13 07:49:54,881 IST [main] INFO  (LobCreatorBuilder.java97) -HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-07-13 07:49:55,019 IST [main] INFO  (TransactionFactoryInitiator.java62) -HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-07-13 07:49:55,023 IST [main] INFO  (ASTQueryTranslatorFactory.java47) -HHH000397: Using ASTQueryTranslatorFactory
+2018-07-13 07:49:55,268 IST [main] INFO  (SchemaUpdate.java182) -HHH000228: Running hbm2ddl schema update
+2018-07-13 07:49:55,269 IST [main] INFO  (SchemaUpdate.java193) -HHH000102: Fetching database metadata
+2018-07-13 07:49:55,270 IST [main] INFO  (SchemaUpdate.java205) -HHH000396: Updating schema
+2018-07-13 07:49:55,287 IST [main] INFO  (TableMetadata.java66) -HHH000261: Table found: test.employees
+2018-07-13 07:49:55,287 IST [main] INFO  (TableMetadata.java67) -HHH000037: Columns: [emp_salary, emp_name, id]
+2018-07-13 07:49:55,287 IST [main] INFO  (TableMetadata.java69) -HHH000108: Foreign keys: []
+2018-07-13 07:49:55,288 IST [main] INFO  (TableMetadata.java70) -HHH000126: Indexes: [primary]
+2018-07-13 07:49:55,288 IST [main] INFO  (SchemaUpdate.java242) -HHH000232: Schema update complete
+2018-07-13 07:49:55,296 IST [main] INFO  (Configuration.java2073) -HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-07-13 07:49:55,296 IST [main] INFO  (Configuration.java2092) -HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-07-13 07:49:55,300 IST [main] INFO  (Configuration.java2214) -HHH000041: Configured SessionFactory: null
+2018-07-13 07:49:55,305 IST [main] WARN  (DriverManagerConnectionProviderImpl.java93) -HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-07-13 07:49:55,305 IST [main] INFO  (DriverManagerConnectionProviderImpl.java166) -HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/test]
+2018-07-13 07:49:55,305 IST [main] INFO  (DriverManagerConnectionProviderImpl.java175) -HHH000046: Connection properties: {user=dev, password=****}
+2018-07-13 07:49:55,306 IST [main] INFO  (DriverManagerConnectionProviderImpl.java180) -HHH000006: Autocommit mode: false
+2018-07-13 07:49:55,306 IST [main] INFO  (DriverManagerConnectionProviderImpl.java102) -HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-13 07:49:55,322 IST [main] INFO  (Dialect.java145) -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-07-13 07:49:55,323 IST [main] INFO  (LobCreatorBuilder.java97) -HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-07-13 07:49:55,328 IST [main] INFO  (TransactionFactoryInitiator.java62) -HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-07-13 07:49:55,329 IST [main] INFO  (ASTQueryTranslatorFactory.java47) -HHH000397: Using ASTQueryTranslatorFactory
+2018-07-13 07:49:55,334 IST [main] INFO  (SchemaUpdate.java182) -HHH000228: Running hbm2ddl schema update
+2018-07-13 07:49:55,334 IST [main] INFO  (SchemaUpdate.java193) -HHH000102: Fetching database metadata
+2018-07-13 07:49:55,334 IST [main] INFO  (SchemaUpdate.java205) -HHH000396: Updating schema
+2018-07-13 07:49:55,338 IST [main] INFO  (TableMetadata.java66) -HHH000261: Table found: test.employees
+2018-07-13 07:49:55,339 IST [main] INFO  (TableMetadata.java67) -HHH000037: Columns: [emp_salary, emp_name, id]
+2018-07-13 07:49:55,339 IST [main] INFO  (TableMetadata.java69) -HHH000108: Foreign keys: []
+2018-07-13 07:49:55,339 IST [main] INFO  (TableMetadata.java70) -HHH000126: Indexes: [primary]
+2018-07-13 07:49:55,339 IST [main] INFO  (SchemaUpdate.java242) -HHH000232: Schema update complete
+2018-07-13 07:49:55,563 IST [main] INFO  (MainApp.java36) -List of employess :1 emp01 1000
+2018-07-13 07:49:55,563 IST [main] INFO  (MainApp.java36) -List of employess :2 emp02 2000
+2018-07-13 07:49:55,563 IST [main] INFO  (MainApp.java36) -List of employess :3 emp03 3000
+2018-07-13 07:49:55,563 IST [main] INFO  (MainApp.java36) -List of employess :4 emp04 4000
+2018-07-13 07:49:55,563 IST [main] INFO  (MainApp.java36) -List of employess :5 emp05 5000
+2018-07-13 07:49:55,563 IST [main] INFO  (MainApp.java36) -List of employess :6 emp06 6000
+2018-07-13 07:49:55,570 IST [main] INFO  (DriverManagerConnectionProviderImpl.java281) -HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/test]
+2018-07-13 07:49:55,571 IST [main] INFO  (MainApp.java40) -DONE
+2018-07-13 07:50:40,525 IST [main] INFO  (JavaReflectionManager.java66) -HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2018-07-13 07:50:40,539 IST [main] INFO  (Version.java54) -HHH000412: Hibernate Core {4.3.5.Final}
+2018-07-13 07:50:40,542 IST [main] INFO  (Environment.java239) -HHH000206: hibernate.properties not found
+2018-07-13 07:50:40,544 IST [main] INFO  (Environment.java346) -HHH000021: Bytecode provider name : javassist
+2018-07-13 07:50:40,566 IST [main] INFO  (Configuration.java2073) -HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-07-13 07:50:40,566 IST [main] INFO  (Configuration.java2092) -HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-07-13 07:50:40,619 IST [main] INFO  (Configuration.java2214) -HHH000041: Configured SessionFactory: null
+2018-07-13 07:50:40,694 IST [main] WARN  (DriverManagerConnectionProviderImpl.java93) -HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-07-13 07:50:40,699 IST [main] INFO  (DriverManagerConnectionProviderImpl.java166) -HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/test]
+2018-07-13 07:50:40,700 IST [main] INFO  (DriverManagerConnectionProviderImpl.java175) -HHH000046: Connection properties: {user=dev, password=****}
+2018-07-13 07:50:40,700 IST [main] INFO  (DriverManagerConnectionProviderImpl.java180) -HHH000006: Autocommit mode: false
+2018-07-13 07:50:40,701 IST [main] INFO  (DriverManagerConnectionProviderImpl.java102) -HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-13 07:50:40,905 IST [main] INFO  (Dialect.java145) -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-07-13 07:50:40,911 IST [main] INFO  (LobCreatorBuilder.java97) -HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-07-13 07:50:41,037 IST [main] INFO  (TransactionFactoryInitiator.java62) -HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-07-13 07:50:41,043 IST [main] INFO  (ASTQueryTranslatorFactory.java47) -HHH000397: Using ASTQueryTranslatorFactory
+2018-07-13 07:50:41,305 IST [main] INFO  (SchemaUpdate.java182) -HHH000228: Running hbm2ddl schema update
+2018-07-13 07:50:41,305 IST [main] INFO  (SchemaUpdate.java193) -HHH000102: Fetching database metadata
+2018-07-13 07:50:41,307 IST [main] INFO  (SchemaUpdate.java205) -HHH000396: Updating schema
+2018-07-13 07:50:41,326 IST [main] INFO  (TableMetadata.java66) -HHH000261: Table found: test.employees
+2018-07-13 07:50:41,326 IST [main] INFO  (TableMetadata.java67) -HHH000037: Columns: [emp_salary, emp_name, id]
+2018-07-13 07:50:41,327 IST [main] INFO  (TableMetadata.java69) -HHH000108: Foreign keys: []
+2018-07-13 07:50:41,327 IST [main] INFO  (TableMetadata.java70) -HHH000126: Indexes: [primary]
+2018-07-13 07:50:41,327 IST [main] INFO  (SchemaUpdate.java242) -HHH000232: Schema update complete
+2018-07-13 07:50:41,337 IST [main] INFO  (Configuration.java2073) -HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-07-13 07:50:41,338 IST [main] INFO  (Configuration.java2092) -HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-07-13 07:50:41,343 IST [main] INFO  (Configuration.java2214) -HHH000041: Configured SessionFactory: null
+2018-07-13 07:50:41,350 IST [main] WARN  (DriverManagerConnectionProviderImpl.java93) -HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-07-13 07:50:41,351 IST [main] INFO  (DriverManagerConnectionProviderImpl.java166) -HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/test]
+2018-07-13 07:50:41,352 IST [main] INFO  (DriverManagerConnectionProviderImpl.java175) -HHH000046: Connection properties: {user=dev, password=****}
+2018-07-13 07:50:41,352 IST [main] INFO  (DriverManagerConnectionProviderImpl.java180) -HHH000006: Autocommit mode: false
+2018-07-13 07:50:41,352 IST [main] INFO  (DriverManagerConnectionProviderImpl.java102) -HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-13 07:50:41,364 IST [main] INFO  (Dialect.java145) -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-07-13 07:50:41,364 IST [main] INFO  (LobCreatorBuilder.java97) -HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-07-13 07:50:41,366 IST [main] INFO  (TransactionFactoryInitiator.java62) -HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-07-13 07:50:41,367 IST [main] INFO  (ASTQueryTranslatorFactory.java47) -HHH000397: Using ASTQueryTranslatorFactory
+2018-07-13 07:50:41,371 IST [main] INFO  (SchemaUpdate.java182) -HHH000228: Running hbm2ddl schema update
+2018-07-13 07:50:41,371 IST [main] INFO  (SchemaUpdate.java193) -HHH000102: Fetching database metadata
+2018-07-13 07:50:41,372 IST [main] INFO  (SchemaUpdate.java205) -HHH000396: Updating schema
+2018-07-13 07:50:41,375 IST [main] INFO  (TableMetadata.java66) -HHH000261: Table found: test.employees
+2018-07-13 07:50:41,375 IST [main] INFO  (TableMetadata.java67) -HHH000037: Columns: [emp_salary, emp_name, id]
+2018-07-13 07:50:41,375 IST [main] INFO  (TableMetadata.java69) -HHH000108: Foreign keys: []
+2018-07-13 07:50:41,375 IST [main] INFO  (TableMetadata.java70) -HHH000126: Indexes: [primary]
+2018-07-13 07:50:41,375 IST [main] INFO  (SchemaUpdate.java242) -HHH000232: Schema update complete
+2018-07-13 07:50:41,598 IST [main] INFO  (MainApp.java36) -List of employess :1 emp01 1000
+2018-07-13 07:50:41,598 IST [main] INFO  (MainApp.java36) -List of employess :2 emp02 2000
+2018-07-13 07:50:41,599 IST [main] INFO  (MainApp.java36) -List of employess :3 emp03 3000
+2018-07-13 07:50:41,599 IST [main] INFO  (MainApp.java36) -List of employess :4 emp04 4000
+2018-07-13 07:50:41,599 IST [main] INFO  (MainApp.java36) -List of employess :5 emp05 5000
+2018-07-13 07:50:41,599 IST [main] INFO  (MainApp.java36) -List of employess :6 emp06 6000
+2018-07-13 07:50:41,605 IST [main] INFO  (DriverManagerConnectionProviderImpl.java281) -HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/test]
+2018-07-13 07:50:41,606 IST [main] INFO  (MainApp.java40) -DONE
+2018-07-13 07:52:02,599 IST [main] INFO  (JavaReflectionManager.java66) -HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2018-07-13 07:52:02,618 IST [main] INFO  (Version.java54) -HHH000412: Hibernate Core {4.3.5.Final}
+2018-07-13 07:52:02,623 IST [main] INFO  (Environment.java239) -HHH000206: hibernate.properties not found
+2018-07-13 07:52:02,624 IST [main] INFO  (Environment.java346) -HHH000021: Bytecode provider name : javassist
+2018-07-13 07:52:02,655 IST [main] INFO  (Configuration.java2073) -HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-07-13 07:52:02,656 IST [main] INFO  (Configuration.java2092) -HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-07-13 07:52:02,708 IST [main] INFO  (Configuration.java2214) -HHH000041: Configured SessionFactory: null
+2018-07-13 07:52:02,783 IST [main] WARN  (DriverManagerConnectionProviderImpl.java93) -HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-07-13 07:52:02,787 IST [main] INFO  (DriverManagerConnectionProviderImpl.java166) -HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/test]
+2018-07-13 07:52:02,787 IST [main] INFO  (DriverManagerConnectionProviderImpl.java175) -HHH000046: Connection properties: {user=dev, password=****}
+2018-07-13 07:52:02,787 IST [main] INFO  (DriverManagerConnectionProviderImpl.java180) -HHH000006: Autocommit mode: false
+2018-07-13 07:52:02,788 IST [main] INFO  (DriverManagerConnectionProviderImpl.java102) -HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-13 07:52:03,014 IST [main] INFO  (Dialect.java145) -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-07-13 07:52:03,025 IST [main] INFO  (LobCreatorBuilder.java97) -HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-07-13 07:52:03,143 IST [main] INFO  (TransactionFactoryInitiator.java62) -HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-07-13 07:52:03,148 IST [main] INFO  (ASTQueryTranslatorFactory.java47) -HHH000397: Using ASTQueryTranslatorFactory
+2018-07-13 07:52:03,413 IST [main] INFO  (SchemaUpdate.java182) -HHH000228: Running hbm2ddl schema update
+2018-07-13 07:52:03,413 IST [main] INFO  (SchemaUpdate.java193) -HHH000102: Fetching database metadata
+2018-07-13 07:52:03,416 IST [main] INFO  (SchemaUpdate.java205) -HHH000396: Updating schema
+2018-07-13 07:52:03,433 IST [main] INFO  (TableMetadata.java66) -HHH000261: Table found: test.employees
+2018-07-13 07:52:03,434 IST [main] INFO  (TableMetadata.java67) -HHH000037: Columns: [emp_salary, emp_name, id]
+2018-07-13 07:52:03,434 IST [main] INFO  (TableMetadata.java69) -HHH000108: Foreign keys: []
+2018-07-13 07:52:03,434 IST [main] INFO  (TableMetadata.java70) -HHH000126: Indexes: [primary]
+2018-07-13 07:52:03,434 IST [main] INFO  (SchemaUpdate.java242) -HHH000232: Schema update complete
+2018-07-13 07:52:03,443 IST [main] INFO  (Configuration.java2073) -HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-07-13 07:52:03,443 IST [main] INFO  (Configuration.java2092) -HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-07-13 07:52:03,448 IST [main] INFO  (Configuration.java2214) -HHH000041: Configured SessionFactory: null
+2018-07-13 07:52:03,456 IST [main] WARN  (DriverManagerConnectionProviderImpl.java93) -HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-07-13 07:52:03,457 IST [main] INFO  (DriverManagerConnectionProviderImpl.java166) -HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/test]
+2018-07-13 07:52:03,457 IST [main] INFO  (DriverManagerConnectionProviderImpl.java175) -HHH000046: Connection properties: {user=dev, password=****}
+2018-07-13 07:52:03,457 IST [main] INFO  (DriverManagerConnectionProviderImpl.java180) -HHH000006: Autocommit mode: false
+2018-07-13 07:52:03,458 IST [main] INFO  (DriverManagerConnectionProviderImpl.java102) -HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-13 07:52:03,469 IST [main] INFO  (Dialect.java145) -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-07-13 07:52:03,469 IST [main] INFO  (LobCreatorBuilder.java97) -HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-07-13 07:52:03,473 IST [main] INFO  (TransactionFactoryInitiator.java62) -HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-07-13 07:52:03,473 IST [main] INFO  (ASTQueryTranslatorFactory.java47) -HHH000397: Using ASTQueryTranslatorFactory
+2018-07-13 07:52:03,478 IST [main] INFO  (SchemaUpdate.java182) -HHH000228: Running hbm2ddl schema update
+2018-07-13 07:52:03,479 IST [main] INFO  (SchemaUpdate.java193) -HHH000102: Fetching database metadata
+2018-07-13 07:52:03,480 IST [main] INFO  (SchemaUpdate.java205) -HHH000396: Updating schema
+2018-07-13 07:52:03,488 IST [main] INFO  (TableMetadata.java66) -HHH000261: Table found: test.employees
+2018-07-13 07:52:03,488 IST [main] INFO  (TableMetadata.java67) -HHH000037: Columns: [emp_salary, emp_name, id]
+2018-07-13 07:52:03,488 IST [main] INFO  (TableMetadata.java69) -HHH000108: Foreign keys: []
+2018-07-13 07:52:03,488 IST [main] INFO  (TableMetadata.java70) -HHH000126: Indexes: [primary]
+2018-07-13 07:52:03,489 IST [main] INFO  (SchemaUpdate.java242) -HHH000232: Schema update complete
+2018-07-13 07:52:03,729 IST [main] INFO  (DriverManagerConnectionProviderImpl.java281) -HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/test]
+2018-07-13 07:52:49,932 IST [main] INFO  (JavaReflectionManager.java66) -HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2018-07-13 07:52:49,949 IST [main] INFO  (Version.java54) -HHH000412: Hibernate Core {4.3.5.Final}
+2018-07-13 07:52:49,953 IST [main] INFO  (Environment.java239) -HHH000206: hibernate.properties not found
+2018-07-13 07:52:49,954 IST [main] INFO  (Environment.java346) -HHH000021: Bytecode provider name : javassist
+2018-07-13 07:52:49,979 IST [main] INFO  (Configuration.java2073) -HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-07-13 07:52:49,979 IST [main] INFO  (Configuration.java2092) -HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-07-13 07:52:50,032 IST [main] INFO  (Configuration.java2214) -HHH000041: Configured SessionFactory: null
+2018-07-13 07:52:50,111 IST [main] WARN  (DriverManagerConnectionProviderImpl.java93) -HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-07-13 07:52:50,114 IST [main] INFO  (DriverManagerConnectionProviderImpl.java166) -HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/test]
+2018-07-13 07:52:50,115 IST [main] INFO  (DriverManagerConnectionProviderImpl.java175) -HHH000046: Connection properties: {user=dev, password=****}
+2018-07-13 07:52:50,115 IST [main] INFO  (DriverManagerConnectionProviderImpl.java180) -HHH000006: Autocommit mode: false
+2018-07-13 07:52:50,117 IST [main] INFO  (DriverManagerConnectionProviderImpl.java102) -HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-13 07:52:50,337 IST [main] INFO  (Dialect.java145) -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-07-13 07:52:50,343 IST [main] INFO  (LobCreatorBuilder.java97) -HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-07-13 07:52:50,460 IST [main] INFO  (TransactionFactoryInitiator.java62) -HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-07-13 07:52:50,465 IST [main] INFO  (ASTQueryTranslatorFactory.java47) -HHH000397: Using ASTQueryTranslatorFactory
+2018-07-13 07:52:50,714 IST [main] INFO  (SchemaUpdate.java182) -HHH000228: Running hbm2ddl schema update
+2018-07-13 07:52:50,714 IST [main] INFO  (SchemaUpdate.java193) -HHH000102: Fetching database metadata
+2018-07-13 07:52:50,716 IST [main] INFO  (SchemaUpdate.java205) -HHH000396: Updating schema
+2018-07-13 07:52:50,727 IST [main] INFO  (TableMetadata.java66) -HHH000261: Table found: test.employees
+2018-07-13 07:52:50,728 IST [main] INFO  (TableMetadata.java67) -HHH000037: Columns: [emp_salary, emp_name, id]
+2018-07-13 07:52:50,728 IST [main] INFO  (TableMetadata.java69) -HHH000108: Foreign keys: []
+2018-07-13 07:52:50,728 IST [main] INFO  (TableMetadata.java70) -HHH000126: Indexes: [primary]
+2018-07-13 07:52:50,728 IST [main] INFO  (SchemaUpdate.java242) -HHH000232: Schema update complete
+2018-07-13 07:52:50,738 IST [main] INFO  (Configuration.java2073) -HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-07-13 07:52:50,739 IST [main] INFO  (Configuration.java2092) -HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-07-13 07:52:50,744 IST [main] INFO  (Configuration.java2214) -HHH000041: Configured SessionFactory: null
+2018-07-13 07:52:50,748 IST [main] WARN  (DriverManagerConnectionProviderImpl.java93) -HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-07-13 07:52:50,748 IST [main] INFO  (DriverManagerConnectionProviderImpl.java166) -HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/test]
+2018-07-13 07:52:50,748 IST [main] INFO  (DriverManagerConnectionProviderImpl.java175) -HHH000046: Connection properties: {user=dev, password=****}
+2018-07-13 07:52:50,748 IST [main] INFO  (DriverManagerConnectionProviderImpl.java180) -HHH000006: Autocommit mode: false
+2018-07-13 07:52:50,748 IST [main] INFO  (DriverManagerConnectionProviderImpl.java102) -HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-13 07:52:50,761 IST [main] INFO  (Dialect.java145) -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-07-13 07:52:50,762 IST [main] INFO  (LobCreatorBuilder.java97) -HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-07-13 07:52:50,765 IST [main] INFO  (TransactionFactoryInitiator.java62) -HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-07-13 07:52:50,765 IST [main] INFO  (ASTQueryTranslatorFactory.java47) -HHH000397: Using ASTQueryTranslatorFactory
+2018-07-13 07:52:50,773 IST [main] INFO  (SchemaUpdate.java182) -HHH000228: Running hbm2ddl schema update
+2018-07-13 07:52:50,773 IST [main] INFO  (SchemaUpdate.java193) -HHH000102: Fetching database metadata
+2018-07-13 07:52:50,775 IST [main] INFO  (SchemaUpdate.java205) -HHH000396: Updating schema
+2018-07-13 07:52:50,780 IST [main] INFO  (TableMetadata.java66) -HHH000261: Table found: test.employees
+2018-07-13 07:52:50,780 IST [main] INFO  (TableMetadata.java67) -HHH000037: Columns: [emp_salary, emp_name, id]
+2018-07-13 07:52:50,780 IST [main] INFO  (TableMetadata.java69) -HHH000108: Foreign keys: []
+2018-07-13 07:52:50,780 IST [main] INFO  (TableMetadata.java70) -HHH000126: Indexes: [primary]
+2018-07-13 07:52:50,780 IST [main] INFO  (SchemaUpdate.java242) -HHH000232: Schema update complete
+2018-07-13 07:52:51,036 IST [main] INFO  (DriverManagerConnectionProviderImpl.java281) -HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/test]
+2018-07-13 07:55:07,378 IST [main] INFO  (JavaReflectionManager.java66) -HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2018-07-13 07:55:07,393 IST [main] INFO  (Version.java54) -HHH000412: Hibernate Core {4.3.5.Final}
+2018-07-13 07:55:07,398 IST [main] INFO  (Environment.java239) -HHH000206: hibernate.properties not found
+2018-07-13 07:55:07,400 IST [main] INFO  (Environment.java346) -HHH000021: Bytecode provider name : javassist
+2018-07-13 07:55:07,433 IST [main] INFO  (Configuration.java2073) -HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-07-13 07:55:07,435 IST [main] INFO  (Configuration.java2092) -HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-07-13 07:55:07,478 IST [main] INFO  (Configuration.java2214) -HHH000041: Configured SessionFactory: null
+2018-07-13 07:55:07,558 IST [main] WARN  (DriverManagerConnectionProviderImpl.java93) -HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-07-13 07:55:07,561 IST [main] INFO  (DriverManagerConnectionProviderImpl.java166) -HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/test]
+2018-07-13 07:55:07,561 IST [main] INFO  (DriverManagerConnectionProviderImpl.java175) -HHH000046: Connection properties: {user=dev, password=****}
+2018-07-13 07:55:07,562 IST [main] INFO  (DriverManagerConnectionProviderImpl.java180) -HHH000006: Autocommit mode: false
+2018-07-13 07:55:07,562 IST [main] INFO  (DriverManagerConnectionProviderImpl.java102) -HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-13 07:55:07,768 IST [main] INFO  (Dialect.java145) -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-07-13 07:55:07,775 IST [main] INFO  (LobCreatorBuilder.java97) -HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-07-13 07:55:07,899 IST [main] INFO  (TransactionFactoryInitiator.java62) -HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-07-13 07:55:07,905 IST [main] INFO  (ASTQueryTranslatorFactory.java47) -HHH000397: Using ASTQueryTranslatorFactory
+2018-07-13 07:55:08,176 IST [main] INFO  (SchemaUpdate.java182) -HHH000228: Running hbm2ddl schema update
+2018-07-13 07:55:08,176 IST [main] INFO  (SchemaUpdate.java193) -HHH000102: Fetching database metadata
+2018-07-13 07:55:08,178 IST [main] INFO  (SchemaUpdate.java205) -HHH000396: Updating schema
+2018-07-13 07:55:08,193 IST [main] INFO  (TableMetadata.java66) -HHH000261: Table found: test.employees
+2018-07-13 07:55:08,194 IST [main] INFO  (TableMetadata.java67) -HHH000037: Columns: [emp_salary, emp_name, id]
+2018-07-13 07:55:08,195 IST [main] INFO  (TableMetadata.java69) -HHH000108: Foreign keys: []
+2018-07-13 07:55:08,195 IST [main] INFO  (TableMetadata.java70) -HHH000126: Indexes: [primary]
+2018-07-13 07:55:08,196 IST [main] INFO  (SchemaUpdate.java242) -HHH000232: Schema update complete
+2018-07-13 07:55:08,209 IST [main] INFO  (Configuration.java2073) -HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-07-13 07:55:08,210 IST [main] INFO  (Configuration.java2092) -HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-07-13 07:55:08,214 IST [main] INFO  (Configuration.java2214) -HHH000041: Configured SessionFactory: null
+2018-07-13 07:55:08,219 IST [main] WARN  (DriverManagerConnectionProviderImpl.java93) -HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-07-13 07:55:08,219 IST [main] INFO  (DriverManagerConnectionProviderImpl.java166) -HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/test]
+2018-07-13 07:55:08,219 IST [main] INFO  (DriverManagerConnectionProviderImpl.java175) -HHH000046: Connection properties: {user=dev, password=****}
+2018-07-13 07:55:08,219 IST [main] INFO  (DriverManagerConnectionProviderImpl.java180) -HHH000006: Autocommit mode: false
+2018-07-13 07:55:08,220 IST [main] INFO  (DriverManagerConnectionProviderImpl.java102) -HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-13 07:55:08,232 IST [main] INFO  (Dialect.java145) -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-07-13 07:55:08,232 IST [main] INFO  (LobCreatorBuilder.java97) -HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-07-13 07:55:08,238 IST [main] INFO  (TransactionFactoryInitiator.java62) -HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-07-13 07:55:08,238 IST [main] INFO  (ASTQueryTranslatorFactory.java47) -HHH000397: Using ASTQueryTranslatorFactory
+2018-07-13 07:55:08,244 IST [main] INFO  (SchemaUpdate.java182) -HHH000228: Running hbm2ddl schema update
+2018-07-13 07:55:08,244 IST [main] INFO  (SchemaUpdate.java193) -HHH000102: Fetching database metadata
+2018-07-13 07:55:08,244 IST [main] INFO  (SchemaUpdate.java205) -HHH000396: Updating schema
+2018-07-13 07:55:08,247 IST [main] INFO  (TableMetadata.java66) -HHH000261: Table found: test.employees
+2018-07-13 07:55:08,247 IST [main] INFO  (TableMetadata.java67) -HHH000037: Columns: [emp_salary, emp_name, id]
+2018-07-13 07:55:08,247 IST [main] INFO  (TableMetadata.java69) -HHH000108: Foreign keys: []
+2018-07-13 07:55:08,247 IST [main] INFO  (TableMetadata.java70) -HHH000126: Indexes: [primary]
+2018-07-13 07:55:08,247 IST [main] INFO  (SchemaUpdate.java242) -HHH000232: Schema update complete
+2018-07-13 07:55:08,467 IST [main] INFO  (DriverManagerConnectionProviderImpl.java281) -HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/test]

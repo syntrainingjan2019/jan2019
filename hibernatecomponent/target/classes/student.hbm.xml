@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="com.mypkg.Student" table="student">
+<id name="studentId" type="long" column="student_id" >
+<generator class="identity" ></generator>
+</id>
+<property name="studentName" type="string" not-null="true" column="student_name">
+</property>
+<component name="studentAddress" class="com.mypkg.Address">
+<property name="street" column="address_street" type="string" length="250" />
+<property name="city" column="address_city" type="string" length="50" />
+<property name="state" column="address_state" type="string" length="50" />
+<property name="zipcode" column="address_zipcode" type="string" length="10" />
+</component>
+</class>
+</hibernate-mapping>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Employees>
+<Employee>
+<name>emp01</name>
+<age>34</age>
+<role>developer</role>
+<gender>male</gender>
+</Employee>
+<Employee>
+<name>emp02</name>
+<age>25</age>
+<role>QA</role>
+<gender>Female</gender>
+</Employee>
+</Employees>

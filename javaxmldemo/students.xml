@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class>
+<student rollno="101">
+<firstname>fname01</firstname>
+<lastname>lname01</lastname>
+<nickname>name01</nickname>
+<marks>11</marks>
+</student>
+<student rollno="102">
+<firstname>fname02</firstname>
+<lastname>lname02</lastname>
+<nickname>name02</nickname>
+<marks>22</marks>
+</student>
+<student rollno="103">
+<firstname>fname03</firstname>
+<lastname>lname03</lastname>
+<nickname>name03</nickname>
+<marks>33</marks>
+</student>
+</class>

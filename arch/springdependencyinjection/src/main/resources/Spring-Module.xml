@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	
+	<bean id="shape3" class="com.models.Shape">
+	<property name="c" ref="circle3"></property>
+	</bean>
+	<bean id="circle3" class="com.models.Circle">
+	<property name="radius" value="30"></property>	
+	</bean>
+	<bean id="shape4" class="com.models.Shape">
+	<property name="c" ref="circle4"></property>
+	</bean>
+	<bean id="circle4" class="com.models.Circle">
+	<property name="radius" value="40"></property>	
+	</bean>
+	<bean id="shape5" class="com.models.Shape">
+	<property name="c" ref="circle5"></property>
+	</bean>
+	<bean id="circle5" class="com.models.Circle">
+	<property name="radius" value="50"></property>	
+	</bean>
+	</beans>

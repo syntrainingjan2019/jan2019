@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	
+	<bean id="javaCollections" class="com.models.JavaCollections">
+	<property name="addressList">
+	<list>
+	<value>India</value>
+	<value>Nepal</value>
+	<value>Sri Lanka</value>
+	<value>Bhutan</value>
+	</list>
+	</property>
+	<property name="addressSet">
+	<set>
+	<value>Australia</value>
+	<value>New Zealand</value>	
+	<value>Guinea</value>
+	</set>
+	</property>
+	<property name="addressMap">
+	<map>
+	<entry key="1" value="India"></entry>
+	<entry key="2" value="Nepal"></entry>
+	<entry key="3" value="Sri Lanka"></entry>
+	<entry key="4" value="Bhutan"></entry>
+	</map>
+	</property>
+	<property name="addressProp" >
+	<props>
+	<prop key="one">Australia</prop>
+	<prop key="two">New Zealand</prop>
+	<prop key="three">Guinea</prop>
+	</props>
+	</property>
+	</bean>
+	
+	</beans>
